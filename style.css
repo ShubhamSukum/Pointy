@@ -40,9 +40,6 @@ p{
 
 .pointed{
     /* border: 1px red solid; */
-    border-bottom: 20px red solid;
-    border-top: 20px red solid;
-    height: 40vh;
     width: 50vw;
 }
 
@@ -70,9 +67,11 @@ b{
 }
 
 .babe{
-    height: 100%;
     width: 100%;
-    border: 1px solid black;
+    border: 15px solid red;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 1rem;
 }
 
 .navu{

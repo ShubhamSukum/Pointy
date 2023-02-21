@@ -7,6 +7,31 @@
     <title>Kranos</title>
 
     <link rel="stylesheet" href="style.css">
+    <style>
+        @media(max-width:1200px) {
+            .months{
+                justify-content: space-evenly;
+            }
+            .pointed{
+                width:80vw;
+            }
+        }
+        @media(max-width:550px) {
+            .months{
+            width: auto;
+        }
+
+            .name-month {
+                display: none;
+            }
+            .name-month:first-child{
+                display: block;
+            }
+            .navu{
+               zoom: 0.7;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="main"><!-- Main -->
